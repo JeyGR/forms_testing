@@ -1,0 +1,39 @@
+.top {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.maindiv {
+  width: 480px;
+  height: 600px;
+  overflow: auto;
+  border-radius: 12px;
+  justify-content: space-evenly;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: rgb(174, 232, 255);
+}
+.maindiv::-webkit-scrollbar {
+  display: none;
+}
+.title {
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.forms {
+  margin-left: 20px;
+  outline: none;
+  border: none;
+}
+.btn {
+  padding: 9px;
+  color: aliceblue;
+  font-size: 16px;
+  margin-left: 275px;
+  width: 30%;
+  background-color: rgb(90, 167, 255);
+  border-radius: 8px;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
